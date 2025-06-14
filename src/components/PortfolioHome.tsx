@@ -1,5 +1,6 @@
 import { Mail, Github, Linkedin, FileText } from "lucide-react";
 import { motion } from "framer-motion";
+import ContactForm from "./ContactForm";
 
 export default function PortfolioHome() {
   return (
@@ -84,6 +85,7 @@ export default function PortfolioHome() {
           <p>LinkedIn: <a className="text-blue-600" href="https://www.linkedin.com/in/shashank0211/" target="_blank">@shashank0211</a></p>
           <p>GitHub: <a className="text-blue-600" href="https://github.com/shashankksoni" target="_blank">@shashankksoni</a></p>
         </div>
+        <ContactForm/>
       </section>
     </div>
   );
